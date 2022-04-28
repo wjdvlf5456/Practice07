@@ -3,9 +3,7 @@ package com.javaex.ex02;
 public abstract class Bird {
 
 	// 필드
-	private String name;
-	
-
+	protected String name;
 	// 생성자
 
 	// 메소드
