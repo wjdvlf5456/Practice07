@@ -10,8 +10,8 @@ public class ShapeApp {
 		
 		
 		Circle c1 = new Circle("녹색", 10);
-		Ractangle r1 = new Ractangle("빨강", 4, 4);
-		Shape sr1 = new Ractangle("빨강", 4, 4);
+		Rectangle r1 = new Rectangle("빨강", 12, 10);
+		Shape sr1 = new Rectangle("빨강", 4, 4);
 
 		// sr1을 그리는 메소드 호출
 		Shape[] dArray = new Shape[3];
@@ -21,10 +21,12 @@ public class ShapeApp {
 		dArray[2] = sr1;
 
 		for (int i = 0; i < dArray.length; i++) {
-			
+			dArray[i].draw();
 		}
 
 		// sr1의 가로크기 출력
+		sr1.draw();
+		
 
 	}
 }
